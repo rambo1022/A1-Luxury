@@ -255,3 +255,10 @@
   });
 
 })()
+
+
+$(`.box`).hover(function(){
+  $(this).addClass('featured')
+},function(){
+  $(this).removeClass('featured')
+})

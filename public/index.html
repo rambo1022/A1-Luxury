@@ -31,7 +31,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <!-- =======================================================
   * Template Name: Arsha - v4.8.0
   * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
@@ -48,8 +48,8 @@
 
   <script>
     firebase.functions().useEmulator("localhost", 5001);
-  
-    
+
+
   </script>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
@@ -76,19 +76,14 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-
-    <div class="container">
+  <section id="hero" class="d-flex align-items-center" style="position:relative;">
+    <img src="./assets/img/shutterstock_1845949759.jpg" class="img-fluid" alt="">
+    <div class="container" class="text-block">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
           data-aos="fade-up" data-aos-delay="200">
           <h1>Premium Car Detailing</h1>
           <h2>Where perfection is standard</h2>
-          <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
-                class="bi bi-play-circle"></i><span>Watch Video</span></a>
-          </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/Car1.webp" class="img-fluid animated" alt="">
@@ -100,584 +95,393 @@
 
   <main id="main">
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
-      <div class="container">
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-        <div class="row" data-aos="zoom-in">
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+        <div class="row content">
+          <div class="col-lg-6">
+            <img src="./A1 luxury - Detail photo.jpeg">
           </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Here at Al we strive to give every vehicle the cosmetic care it
+              deserves. We specialize in auto detailing but aren't held back to
+              just cars. We offer the same great quality of work for boats bikes
+              and even RVS. We take pride in our work and are determined to
+              share that pride with you after every service. To us no matter the
+              car brand or model every car has the qualities to be a luxury
+              vehicle. With multiple packages to offer, we are bound to fit
+              your every need at an affordable price. Try us today!
+            </p>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
           </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div>
-
         </div>
 
       </div>
-    </section><!-- End Cliens Section -->
-
-       <!-- ======= About Us Section ======= -->
-       <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-  
-          <div class="section-title">
-            <h2>About Us</h2>
-          </div>
-  
-          <div class="row content">
-            <div class="col-lg-6">
-             <img src="../A1 luxury - Detail photo.jpeg">
-            </div>
-            <div class="col-lg-6 pt-4 pt-lg-0">
-              <p>
-                  Here at Al we strive to give every vehicle the cosmetic care it
-                  deserves. We specialize in auto detailing but aren't held back to
-                  just cars. We offer the same great quality of work for boats bikes
-                  and even RVS. We take pride in our work and are determined to
-                  share that pride with you after every service. To us no matter the
-                  car brand or model every car has the qualities to be a luxury
-                  vehicle. With multiple packages to offer, we are bound to fit
-                  your every need at an affordable price. Try us today!
-              </p>
-              
-            </div>
-          </div>
-  
-        </div>
 
       </div>
     </section><!-- End About Us Section -->
-
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <p>At A1 Luxury we offer premiere and world class car detailing. We strive to offer the best services possible
+            for your treasure. With quality, experience, and passion we offer the best car detailing services in South
+            Florida.</p>
         </div>
 
-        <div class="row">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+        <!--Row 1-->
+
+        <div class="container services">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/waxing.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Waxing</h1>
+              <p class="card-text">Offering world class Waxing Services as either an add on or package deal to your
+                service.</p>
             </div>
           </div>
 
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-            data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/headerliner.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Headliners Services</h1>
+              <p class="card-text">Offering world class Headliners Services as either an add on or package deal to your
+                service.</p>
             </div>
           </div>
 
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
-            data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/paint-correction.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Paint Correction</h1>
+              <p class="card-text">Offering world class Paint Correction as either an add on or package deal to your
+                service.</p>
             </div>
           </div>
 
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
-            data-aos-delay="400">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/tire-shine.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Tire Shine</h1>
+              <p class="card-text">Offering world class Tire Shine as either an add on or package deal to your service.
+              </p>
             </div>
           </div>
-        </div>
-      </div>
-    </section><!-- End Services Section -->
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-card">Card</li>
-          <li data-filter=".filter-web">Web</li>
-        </ul>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/clay-baring.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Clay Baring</h1>
+              <p class="card-text">Offering world class Clay Baring as either an add on or package deal to your service.
+              </p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/car-vacuum.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Vacuum</h1>
+              <p class="card-text">Offering world class Vacuum as either an add on or package deal to your service.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/bodywash-car.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Bodywash</h1>
+              <p class="card-text">Offering world class Bodywash as either an add on or package deal to your service.
+              </p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/carpet-stain-removing.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Carpet Stain Removing</h1>
+              <p class="card-text">Offering world class Carpet Stain Removing as either an add on or package deal to
+                your service.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/seat-stain-removing.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Seat Stain Removing</h1>
+              <p class="card-text">Offering world class Seat Stain Removing as either an add on or package deal to your
+                service.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/interior-deep-clean.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1>Interior Deep Clean</h1>
+              <p class="card-text">Offering world class Interior Deep Clean as either an add on or package deal to your
+                service.</p>
             </div>
           </div>
         </div>
-      </div>
-    </section><!-- End Portfolio Section -->
+        <!-- ======= End Services Section ======= -->
+        <!-- ======= Pricing Section ======= -->
+        <section id="pricing" class="pricing">
+          <div class="container" data-aos="fade-up">
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container" data-aos="fade-up">
+            <div class="section-title">
+              <h2>Pricing</h2>
+            </div>
 
-        <div class="section-title">
-          <h2>Reviews</h2>
-          </div>
-          <div class="row">
-
-          <div class="col-lg-12">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              
-              <div class="member-info">
-                <h4>David Post</h4>
-                
-                <p>Had my car detailed by A1, they were excellent. Not only did they do an amazing job with my car but the guy who did the job was very polite and genuine. I highly recommend!! Would give 6 stars if I could.
-                </p> 
-                
-                <div class="social"> 
-                  <!-- Add icon library -->
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
-
+            <div class="row">
+              <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="box">
+                  <h3>BASIC IN/OUT WASH</h3>
+                  <h4><sup>$</sup>84</h4>
+                  <ul>
+                    <li><i class="bx bx-check"></i> Bodywash</li>
+                    <li><i class="bx bx-check"></i> Vacuum Cleaning</li>
+                    <li><i class="bx bx-check"></i> Tire Shine</li>
+                  </ul>
                 </div>
-              </div> 
-              
-            </div>
-          </div> 
-          
+              </div>
 
-          <div class="col-lg-12 mt-4 mt-lg-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              
-              <div class="member-info">
-                <h4>Mariana Pachon</h4>
-                
-                <p>I got 2 of my vehicles detailed by this amazing company. Not only did both of my cars look brand new but i was taken away by the attention to detail. This is not your average detailing. There is hard work and effort being put into each clean. I highly recommend!!
-                <br>   
-                <i style="color:blue;">Services</i>: Vacuuming, Scratch removal, Full body wash, Wheel washing, Auto interior vacuuming
-                  </p> 
-                   
-                <div class="social">
-           <!-- Add icon library -->
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+              <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+                <div class="box">
+                  <h3>CAR SHOW FINISH</h3>
+                  <h4><sup>$</sup>115</h4>
+                  <ul>
+                    <li><i class="bx bx-check"></i> All included in the previous</li>
+                    <li><i class="bx bx-check"></i> Paint Correction</li>
+                    <li><i class="bx bx-check"></i> Waxing</li>
+                  </ul>
+                </div>
+              </div>
 
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
+              <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                <div class="box">
+                  <h3>SHOW ROOM FINISH</h3>
+                  <h4><sup>$</sup>198</h4>
+                  <ul>
+                    <li><i class="bx bx-check"></i> All included in the previous</li>
+                    <li><i class="bx bx-check"></i> Interior Deep Clean</li>
+                    <li><i class="bx bx-check"></i> Headliners Services</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                <div class="box">
+                  <h3>FACTORY RESET FINISH</h3>
+                  <h4><sup>$</sup>273</h4>
+                  <ul>
+                    <li><i class="bx bx-check"></i> All included in the previous</li>
+                    <li><i class="bx bx-check"></i> Carpet Stain Removal</li>
+                    <li><i class="bx bx-check"></i> Seat Stain Removal</li>
+                    <li><i class="bx bx-check"></i> Clay Baring</li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
+        </section><!-- End Pricing Section -->
 
-          <div class="col-lg-12 mt-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-              
-              <div class="member-info">
-                <h4>Carlos Garcia</h4>
-                
-                <p>a month ago
-                  The owner Charles did an amazing job. Did great detailing on my car inside out and. I would recommend for sure.
-                 <br> 
-                 <i style="color:blue;"> Services</i>: Vacuuming, Auto detailing, Full body wash</p> 
+        <!-- ======= Reviews Section ======= -->
+        <section id="team" class="team section-bg">
+          <div class="container" data-aos="fade-up">
+            <div class="section-title">
+              <h2>Reviews</h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
 
-                <div class="social">
-                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                  <div class="member-info">
+                    <h4>David Post</h4>
 
-                  <span style="color:orange;" class="fa fa-star"></span>
-                  <span style="color:orange;" class="fa fa-star"></span>
-                  <span style="color:orange;" class="fa fa-star"></span>
-                  <span style="color:orange;" class="fa fa-star"></span>
-                  <span style="color:orange;" class="fa fa-star"></span>
+                    <p>Had my car detailed by A1, they were excellent. Not only did they do an amazing job with my car
+                      but the guy who did the job was very polite and genuine. I highly recommend!! Would give 6 stars
+                      if I could.
+                    </p>
+
+                    <div class="social">
+                      <!-- Add icon library -->
+                      <link rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        
-          <div class="col-lg-12 mt-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-              
-              <div class="member-info">
-                <h4>Hada rodriguez</h4>
-                
-                <p>He came to my house to do the service which is really convenient. Charles is punctual and professional. The work was detail oriented and thorough. Would def recommend. 
-                  <br>
-                 <i style="color:blue;">Services</i>: Vacuuming, Auto detailing, Auto interior vacuuming, Seat shampooing</p>
-                <div class="social">
-                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
-                    <span style="color:orange;" class="fa fa-star"></span>
+              <div class="col-lg-12 mt-4 mt-lg-4">
+                <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+
+                  <div class="member-info">
+                    <h4>Mariana Pachon</h4>
+
+                    <p>I got 2 of my vehicles detailed by this amazing company. Not only did both of my cars look brand
+                      new but i was taken away by the attention to detail. This is not your average detailing. There is
+                      hard work and effort being put into each clean. I highly recommend!!
+                      <br>
+                      <i style="color:blue;">Services</i>: Vacuuming, Scratch removal, Full body wash, Wheel washing,
+                      Auto interior vacuuming
+                    </p>
+
+                    <div class="social">
+                      <!-- Add icon library -->
+                      <link rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-        </div>
+              <div class="col-lg-12 mt-4">
+                <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
 
-      </div>
-    </section><!-- End Team Section -->
+                  <div class="member-info">
+                    <h4>Carlos Garcia</h4>
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
+                    <p>a month ago
+                      The owner Charles did an amazing job. Did great detailing on my car inside out and. I would
+                      recommend for sure.
+                      <br>
+                      <i style="color:blue;"> Services</i>: Vacuuming, Auto detailing, Full body wash
+                    </p>
 
-        <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
+                    <div class="social">
+                      <link rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <div class="row">
-
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>BASIC IN/OUT WASH</h3>
-              <h4><sup>$</sup>84</h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              </ul>
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-              <h3>CAR SHOW FINISH</h3>
-              <h4><sup>$</sup>115</h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <h3>SHOW ROOM FINISH</h3>
-              <h4><sup>$</sup>198</h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <h3>FACTORY RESET FINISH</h3>
-              <h4><sup>$</sup>273</h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact Us</h2>
-          <p>Any questions? Feel free to contact us below!</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Palm Beach County</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>a1luxurydetailing6@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 561-446-1069</p>
-              </div>
-
-              <img src="./assets/img/calcmaps-map-radius-134147-30082022.png" width="400" height="300" style="border:0;">
-            </div>
-
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+
+              <div class="col-lg-12 mt-4">
+                <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+
+                  <div class="member-info">
+                    <h4>Hada rodriguez</h4>
+
+                    <p>He came to my house to do the service which is really convenient. Charles is punctual and
+                      professional. The work was detail oriented and thorough. Would def recommend.
+                      <br>
+                      <i style="color:blue;">Services</i>: Vacuuming, Auto detailing, Auto interior vacuuming, Seat
+                      shampooing
+                    </p>
+                    <div class="social">
+                      <link rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                      <span style="color:orange;" class="fa fa-star"></span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" id="message" name="message" rows="10" required></textarea>
+
+            </div>
+
+          </div>
+        </section><!-- End Team Section -->
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+          <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+              <h2>Contact Us</h2>
+              <p>Any questions? Feel free to contact us below!</p>
+            </div>
+
+            <div class="row">
+
+              <div class="col-lg-5 d-flex align-items-stretch">
+                <div class="info">
+                  <div class="address">
+                    <i class="bi bi-geo-alt"></i>
+                    <h4>Location:</h4>
+                    <p>Palm Beach County</p>
+                  </div>
+
+                  <div class="email">
+                    <i class="bi bi-envelope"></i>
+                    <h4>Email:</h4>
+                    <p>a1luxurydetailing6@gmail.com</p>
+                  </div>
+
+                  <div class="phone">
+                    <i class="bi bi-phone"></i>
+                    <h4>Call:</h4>
+                    <p>+1 561-446-1069</p>
+                  </div>
+
+                  <img src="./assets/img/calcmaps-map-radius-134147-30082022.png" width="400" height="300"
+                    style="border:0;">
+                </div>
+
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                <form class="php-email-form">
+                  <div class="row">
+                    <div class="form-group col-md-6">
+                      <label for="name">Your Name</label>
+                      <input type="text" name="name" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="name">Your Email</label>
+                      <input type="email" class="form-control" name="email" id="email" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Subject</label>
+                    <input type="text" class="form-control" name="subject" id="subject" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="10" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+                  <div class="text-center"><button id="submitButton" onClick="sendMail()" type="submit">Send
+                      Message</button></div>
+                </form>
               </div>
-              <div class="text-center"><button id="submitButton"onClick="sendMail()" type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Arsha</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
+        </section><!-- End Contact Section -->
+  </main>
 
-        </div>
-      </div>
-    </div>
+  <!-- End #main -->
 
-    <div class="container footer-bottom clearfix">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
